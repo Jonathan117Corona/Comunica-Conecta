@@ -1,0 +1,73 @@
+body {
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+h2 {
+    font-size: 24px; /* Tamaño de fuente para los títulos */
+    color: #333; /* Color del texto de los títulos */
+    margin-top: 20px; /* Espacio superior */
+    margin-bottom: 10px; /* Espacio inferior */
+}
+
+h2:first-child {
+    margin-top: 0; /* Elimina el espacio superior del primer título */
+}
+
+p {
+    font-size: 16px; /* Tamaño de fuente para los párrafos */
+    line-height: 1.5; /* Espaciado entre líneas */
+    color: #666; /* Color del texto de los párrafos */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+h2, p {
+    text-align: justify; /* Esto justificará el texto en lugar de alinearlo a la izquierda */
+}
+
+iframe {
+    width: 100%; /* Ancho del video al 100% del contenedor */
+    height: auto; /* Altura automática para mantener la proporción */
+    margin-top: 15px; /* Espacio superior para separar del contenido anterior */
+    margin-bottom: 15px; /* Espacio inferior para separar del contenido posterior */
+}
+
